@@ -34,6 +34,6 @@ setTimeout(function () {
 }, 5000);
 </pre>
 
-An executor can all be stringified - `toString()` shows information about the
+An executor can also be stringified - `toString()` shows information about the
 state of the executor.
 
