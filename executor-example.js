@@ -1,4 +1,5 @@
-var FixedSizeExecutor = require('./executor');
+// var FixedSizeExecutor = require('./executor');
+var FixedSizeExecutor = require('fixed-size-executor');
 
 // Create an executor, specify the maximum concurrency
 executor = new FixedSizeExecutor(2);
